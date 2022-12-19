@@ -19,4 +19,6 @@ In modern face recognition there are 4 steps:
 
 
 4.Classify
-
+#It takes input into a 3D-aligned RGB image of 152*152. This image is then passed the Convolution layer with 32 filters and size 11*11*3 and a 3*3 max-pooling layer with the stride of 2. 
+#This is followed by another convolution layer of 16 filters and size 9*9*16. The purpose of these layers to extract low-level features from the image edges and textures. 
+https://colab.research.google.com/drive/1TTMET3Y51xPm6md2yczfPr4cAyxmITo-#scrollTo=ROUJZ9daK2dp&line=1&uniqifier=1
